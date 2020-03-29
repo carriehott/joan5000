@@ -1,0 +1,9 @@
+html, body {
+  background-image: linear-gradient(red, yellow);
+  max-width: 2000px;
+  margin: 0;
+}
+canvas {
+  display: block;
+    margin: auto;
+}
