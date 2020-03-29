@@ -1,9 +1,29 @@
-html, body {
-  background-image: linear-gradient(red, yellow);
-  max-width: 2000px;
-  margin: 0;
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+body {
+  margin: 30px auto;
+  max-width: 1000px;
+  font-family:'Work Sans', sans-serif;
+  line-height: 1.5;
+  padding: 30px 20px;
+  text-align: center;
+  align-content: center;
 }
-canvas {
+
+h1 {
+  padding: 20px 0px 10px 0px;
+}
+
+
+a {
+color: red;
+text-decoration: none;
+}
+
+
+/* Centers images */
+
+img {
   display: block;
-    margin: auto;
+  margin: 0px auto;
 }
