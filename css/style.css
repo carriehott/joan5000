@@ -1,34 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
 
 body {
-  margin: 30px auto;
-  max-width: 1000px;
-  font-family:'Work Sans', sans-serif;
-  line-height: 1.5;
-  padding: 30px 20px;
-  text-align: center;
-  align-content: center;
+    background-color:#EB2B2B;
+    margin: 30px auto;
+    max-width: 1000px;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.5;
+    padding: 30px 20px;
+    text-align: center;
+    align-content: center;
 }
 
 canvas {
-    display: block; 
+    display: block;
+    margin: auto;
+}
+
+iframe {
+    display: block;
     margin: auto;
 }
 
 h1 {
-  padding: 20px 0px 10px 0px;
+    color: aqua; 
+    padding: 20px 0px 10px 0px;
 }
 
 
 a {
-color: red;
-text-decoration: none;
+    color: red;
+    text-decoration: none;
 }
 
 
 /* Centers images */
 
 img {
-  display: block;
-  margin: 0px auto;
+    display: block;
+    margin: 0px auto;
 }
