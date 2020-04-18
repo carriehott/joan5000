@@ -1,5 +1,4 @@
 var towel;
-var link;
 
 function preload() {
     towel = loadImage("img/HangingTowel.png");
