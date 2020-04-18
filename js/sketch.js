@@ -2,7 +2,7 @@ var towel;
 var link;
 
 function preload() {
-    towel = loadImage("../img/HangingTowel.png");
+    towel = loadImage("..joan5000/img/HangingTowel.png");
 }
 
 function windowResized() {
