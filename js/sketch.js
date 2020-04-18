@@ -29,6 +29,6 @@ function draw() {
 
 function mousePressed() {
   if (mouseX > width / 1.5 && mouseY > height / 1.5) {
-    window.location.location = 'https://carriehott.github.io/joan5000/002.html'
+    window.location.href = 'https://carriehott.github.io/joan5000/002.html'
   }
   }
