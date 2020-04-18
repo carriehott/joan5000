@@ -30,6 +30,6 @@ function draw() {
 
 function mousePressed() {
   if (mouseX > width / 1.5 && mouseY > height / 1.5) {
-    window.location.pathname = '../002.html'
+    window.location.pathname = '002.html'
   }
   }
