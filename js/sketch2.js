@@ -1,5 +1,9 @@
 var capture;
+var jar; 
 
+function preload() {
+    jar=loadImage("jar_cursor.png")
+}
 
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
@@ -7,7 +11,7 @@ function windowResized() {
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
-    //noCursor();
+    noCursor();
     capture = createCapture(VIDEO);
     capture.size(220, 150);
     capture.hide();
@@ -25,7 +29,7 @@ function draw() {
     image(capture, width/1.5, height/1.5);
 
     imageMode(CENTER);
-    image(towel, mouseX, mouseY);
+    image(jar, mouseX, mouseY);
 }
 
 function mousePressed() {
