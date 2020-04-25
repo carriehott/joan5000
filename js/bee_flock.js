@@ -1,8 +1,14 @@
 
 let bugs = []; // array of Jitter objects
 
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+}
+
 function setup() {
-  createCanvas(700, 700);
+    createCanvas(windowWidth, windowHeight);
+
+
   // Create objects
   for (let i = 0; i < 50; i++) {
     bugs.push(new Jitter());
