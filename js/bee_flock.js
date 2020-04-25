@@ -10,7 +10,7 @@ function setup() {
 
 
   // Create objects
-  for (let i = 0; i < 50; i++) {
+  for (let i = 0; i < 150; i++) {
     bugs.push(new Jitter());
     img = loadImage('https://carriehott.github.io/joan5000/img/bee_cursor.gif'); // Load the image
 
