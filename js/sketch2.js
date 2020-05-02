@@ -1,8 +1,8 @@
 var capture;
-var jar; 
+var bee; 
 
 function preload() {
-    jar=loadImage("jar_cursor.png")
+    bee=loadImage("img/bee_cursor.gif"); 
 }
 
 function windowResized() {
@@ -11,16 +11,16 @@ function windowResized() {
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
-    noCursor();
     capture = createCapture(VIDEO);
     capture.size(220, 150);
     capture.hide();
+    noCursor(); 
 }
 
 function draw() {
     background('lightpink');
     tint('pink');
-    image(capture, width/4, height/4);
+    image(capture, width/5, height/5);
     tint('yellow');
     image(capture, width/3, height/3);
     tint('orange');
@@ -28,12 +28,12 @@ function draw() {
     tint('red');
     image(capture, width/1.5, height/1.5);
 
-    imageMode(CENTER);
-    image(jar, mouseX, mouseY);
+    imageMode(CENTER); 
+    image(bee, mouseX, mouseY); 
 }
 
 function mousePressed() {
-    if (mouseX > width / 1.5 && mouseY > height / 1.5) {
-        window.location.href = 'https://carriehott.github.io/joan5000/004.html'
-    }
-}
+  if (mouseX > width / 1.5 && mouseY > height / 1.5) {
+    window.location.href = 'https://carriehott.github.io/joan5000/004.html'
+  }
+  }
