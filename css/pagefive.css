@@ -21,5 +21,4 @@ body {
     background-image: url("/img/meeting.png"); 
     background-repeat: no-repeat; 
     background-size: cover;
-    cursor: url("candle.png"), auto; 
 }
