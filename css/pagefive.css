@@ -15,10 +15,7 @@ body {
     padding: 0;
     font-family: 'Oxanium', cursive;
     background-color: #191331; 
-}
-
-.meeting {
-    background-image: url("/img/meeting.png"); 
+     background-image: url("/img/meeting.png"); 
     background-repeat: no-repeat; 
     background-size: cover;
 }
